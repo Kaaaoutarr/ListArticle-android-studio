@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AjouterArticleActivity"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.3"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:text="Gestion des articles"
+        android:layout_gravity="center"
+       />
+
+
+    <EditText
+        android:id="@+id/nomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="Nom de l'article"
+        android:letterSpacing="0.3" />
+
+    <EditText
+        android:id="@+id/puEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prix unitaire"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.3"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:letterSpacing="0.3"
+        android:layout_margin="15dp" />
+    <Button
+        android:id="@+id/displayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:letterSpacing="0.3"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="100dp"
+        android:visibility="gone"/>
+
+
+
+
+</LinearLayout>
